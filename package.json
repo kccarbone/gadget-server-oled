@@ -1,0 +1,27 @@
+{
+  "name": "gadget-server-oled",
+  "description": "Local pi server to control an oled display",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {
+    "forever": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kccarbone/gadget-server-oled.git"
+  },
+  "author": "Kyle Carbone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kccarbone/gadget-server-oled/issues"
+  },
+  "homepage": "https://github.com/kccarbone/gadget-server-oled#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-consolog": "^1.0.1",
+    "pi-gadgets": "^0.1.0"
+  }
+}
