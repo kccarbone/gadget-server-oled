@@ -1,12 +1,13 @@
 {
   "name": "gadget-server-oled",
   "description": "Local pi server to control an oled display",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "devDependencies": {
     "forever": "^4.0.1"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +23,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "node-consolog": "^1.0.1",
-    "pi-gadgets": "^0.1.0"
+    "pi-gadgets": "^0.1.1"
   }
 }
